@@ -1,0 +1,5 @@
+torch
+transformers
+ollama
+PyPDF2
+nltk
