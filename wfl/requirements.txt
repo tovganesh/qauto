@@ -3,3 +3,5 @@ transformers
 ollama
 PyPDF2
 nltk
+pytesseract
+pdf2image

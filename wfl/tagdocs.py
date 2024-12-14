@@ -12,7 +12,8 @@ TAGS = {
     "finance": ["invoice", "payment", "amount", "bill", "tax"],
     "contact_info": ["phone", "email", "address", "contact", "fax"],
     "product_details": ["product", "item", "quantity", "price", "order"],
-    "partnership": ["company", "firm"]
+    "partnership": ["company", "firm"],
+    "identity": ["pan", "dob", "aadhar", "passport"]
 }
 
 # Function to Tag Text Blocks
