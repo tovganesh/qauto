@@ -1,3 +1,4 @@
+import sys
 import ollama
 
 # Initialize Ollama API
@@ -9,7 +10,7 @@ def load_text(file_path):
         return f.read()
 
 # Define file path
-file_path = 'extended_ship_activity_log.txt'
+file_path = sys.argv[1]
 
 # Load text from file
 text_input = load_text(file_path)

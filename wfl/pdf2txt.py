@@ -1,5 +1,6 @@
-import PyPDF2
 import os
+import sys
+import PyPDF2
 
 # Extract text from a single PDF file
 def extract_text_from_pdf(file_path):
@@ -29,7 +30,7 @@ def convert_pdfs_to_text(directory, output_dir):
                 print(f"Extracted text saved to {output_file}")
 
 # Example usage
-input_dir = "pdf"
-output_dir = "txt"
+input_dir = sys.argv[1]
+output_dir = sys.argv[2]
 
 convert_pdfs_to_text(input_dir, output_dir)
