@@ -1,2 +1,2 @@
 # qauto
-Auto QA Workflow System PoC Development
+Auto QA Workflow System PoC
